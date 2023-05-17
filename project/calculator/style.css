@@ -23,13 +23,13 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 .display {
-  height: 80px;
+  height: 82px;
   width: 100%;
   outline: none;
   border: none;
   text-align: right;
   margin-bottom: 10px;
-  font-size: 26px;
+  font-size: 25px;
   color: #000e1a;
   pointer-events: none;
 }
