@@ -18,7 +18,7 @@ body{
 }
 .wrapper .time{
   height: 100px;
-  background: #492424;
+  background: #7a4141;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@ body{
   text-align: center;
   font-size: 50px;
   font-weight: 500;
-  color: #333;
+  color: #582b2b;
 }
 .time span.colon{
   width: 10px;
