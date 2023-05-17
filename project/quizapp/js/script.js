@@ -9,29 +9,29 @@ const questions =[
         ]
     },
     {
-        question: "egafyuvgdvdjhagv",
+        question: "Which Tag is used to link javascript with html?",
         answers:[
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: false},
+            {text: "link tag", correct: false},
+            {text: "anchor tag", correct: false},
+            {text: "form tag", correct: false},
+            {text: "script tag", correct: true},
         ]
     },
     {
-        question: "egafyudfghjkhgfdfghfvgdvdjhagv",
+        question: "How are visited links displayed?",
         answers:[
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: false},
+            {text: "underlined and purple" , correct:true},
+            {text: "underlined and red", correct:false},
+            {text: "underlined and blue", correct: false},
+            {text: "just purple", correct: false},
         ]
     },
     {
-        question: "egafyujgggdhfdfghjkjhgffvgdvdjhagv",
+        question: "Whcih type of css have more priority than the others?",
         answers:[
             {text: "cbcvbjhcb", correct: false},
             {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: false},
+            {text: "cbcvbjhcb", correct: true},
             {text: "cbcvbjhcb", correct: false},
         ]
     }
