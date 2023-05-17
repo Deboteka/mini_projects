@@ -2,7 +2,7 @@ const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
-const calculate = (btnValue) => {
+const calculator = (btnValue) => {
   display.focus();
   if (btnValue === "=" && output !== "") {
     output = eval(output.replace("%", "/100"));
