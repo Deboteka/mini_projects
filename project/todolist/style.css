@@ -45,7 +45,7 @@ body{
 }
 .task-input input:focus,
 .task-input input.active{
-  padding-left: 52px;
+  padding-left: 50px;
   border: 2px solid #3C87FF;
 }
 .task-input input::placeholder{
