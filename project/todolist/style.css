@@ -131,7 +131,7 @@ body{
   align-items: flex-start;
 }
 .task label input{
-  margin-top: 7px;
+  margin-top: 8px;
   accent-color: #3C87FF;
 }
 .task label p{
