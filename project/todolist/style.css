@@ -74,7 +74,7 @@ body{
 }
 .controls .clear-btn{
   border: none;
-  opacity: 0.6;
+  opacity: 0.5;
   outline: none;
   color: #f8f1f1;
   cursor: pointer;
