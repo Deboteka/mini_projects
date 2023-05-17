@@ -86,6 +86,12 @@ function selectAnswer(e){
     });
     nextButton.style.display = "block";
 }
+function showScore(){
+    resetState();
+    questionElement.innerText = 'Wanna try again';
+    nextButton.innerHTML = "Restart";
+    nextButton.style.display = "block";
+}
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.length){
@@ -101,3 +107,4 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 });
+startQuiz();
