@@ -29,10 +29,10 @@ const questions =[
     {
         question: "Whcih type of css have more priority than the others?",
         answers:[
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: false},
+            {text: "external css", correct: false},
+            {text: "internal css", correct: false},
+            {text: "The more specified one like with class or id", correct: true},
+            {text: "inline css", correct: false},
         ]
     }
 ];
