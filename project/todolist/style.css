@@ -32,7 +32,7 @@ body{
 .task-input img{
   top: 50%;
   position: absolute;
-  transform: translate(17px, -50%);
+  transform: translate(18px, -50%);
 }
 .task-input input{
   height: 100%;
