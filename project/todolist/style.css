@@ -76,7 +76,7 @@ body{
   border: none;
   opacity: 0.6;
   outline: none;
-  color: #fff;
+  color: #f8f1f1;
   cursor: pointer;
   font-size: 13px;
   padding: 7px 13px;
@@ -100,7 +100,7 @@ body{
 }
 .task-box.overflow{
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 280px;
 }
 .task-box::-webkit-scrollbar{
   width: 5px;
@@ -173,7 +173,7 @@ body{
   transform: scale(1);
 }
 .task-menu li{
-  height: 25px;
+  height: 30px;
   font-size: 16px;
   margin-bottom: 2px;
   padding: 17px 15px;

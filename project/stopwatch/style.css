@@ -11,14 +11,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #7e64a0;
+  background: #3a2b4e;
 }
 .wrapper{
   user-select: none;
 }
 .wrapper .time{
   height: 100px;
-  background: #fff;
+  background: #7a4141;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,7 @@ body{
   text-align: center;
   font-size: 50px;
   font-weight: 500;
-  color: #333;
+  color: #582b2b;
 }
 .time span.colon{
   width: 10px;
