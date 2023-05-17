@@ -1,11 +1,11 @@
 const questions =[
     { 
-        question: "egafyujgggdhfvgdvdjhagv",
+        question: "Whuch is true about HTML?",
         answers:[
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: true},
-            {text: "cbcvbjhcb", correct: false},
-            {text: "cbcvbjhcb", correct: false},
+            {text: "It is a programming language", correct: false},
+            {text: "Hyper Text Markup Language of the World Wide Web", correct: true},
+            {text: "A link is written in thr body tag", correct: false},
+            {text: "while saving the file .html and .htm are not the same", correct: false},
         ]
     },
     {
