@@ -8,10 +8,9 @@
 }
 body {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #e0e9eb;
+  display: grid;
+  place-content: center;
+  background: #9fb9be;
 }
 .container {
   position: relative;
@@ -19,7 +18,7 @@ body {
   width: 100%;
   border-radius: 13px;
   padding: 9px 20px 20px;
-  background: #fff;
+  background: #ffffff63;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
 .display {
@@ -45,10 +44,22 @@ body {
   font-size: 20px;
   cursor: pointer;
   background-color: #eee;
+  transition-delay: 500ms;
+  transition: ease-in-out;
 }
 .buttons button:active {
   transform: scale(0.99);
+  background-color: #c0bebe;
 }
+
+.buttons button:hover {
+  background-color: #dadada;
+}
+
+.buttons button:focus {
+  background-color: #c0bebe;
+}
+
 .operator {
-  color: #4095e0;
+  color: #1d7ccf;
 }
