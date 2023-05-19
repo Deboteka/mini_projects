@@ -14,25 +14,25 @@ body{
 }
 ::selection{
   color: #fff;
-  background: #4e83d8;
+  background: #4186f4;
 }
 .wrapper{
   max-width: 405px;
-  padding: 28px 0 30px;
-  margin: 137px auto;
+  padding: 30px 0 30px;
+  margin: 136px auto;
   background: #fff;
-  border-radius: 7px;
+  border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .task-input{
-  height: 52px;
+  height: 50px;
   padding: 0 25px;
   position: relative;
 }
 .task-input img{
   top: 50%;
   position: absolute;
-  transform: translate(17px, -50%);
+  transform: translate(18px, -50%);
 }
 .task-input input{
   height: 100%;
@@ -45,7 +45,7 @@ body{
 }
 .task-input input:focus,
 .task-input input.active{
-  padding-left: 52px;
+  padding-left: 50px;
   border: 2px solid #3C87FF;
 }
 .task-input input::placeholder{
@@ -57,12 +57,12 @@ body{
   justify-content: space-between;
 }
 .controls{
-  padding: 18px 25px;
+  padding: 18px 26px;
   border-bottom: 1px solid #ccc;
 }
 .filters span{
-  margin: 0 8px;
-  font-size: 17px;
+  margin: 0 7px;
+  font-size: 18px;
   color: #444444;
   cursor: pointer;
 }
@@ -70,13 +70,13 @@ body{
   margin-left: 0;
 }
 .filters span.active{
-  color: #3C87FF;
+  color: #3381fd;
 }
 .controls .clear-btn{
   border: none;
-  opacity: 0.6;
+  opacity: 0.5;
   outline: none;
-  color: #fff;
+  color: #f8f1f1;
   cursor: pointer;
   font-size: 13px;
   padding: 7px 13px;
@@ -95,12 +95,12 @@ body{
 }
 .task-box{
   margin-top: 20px;
-  margin-right: 5px;
+  margin-right: 6px;
   padding: 0 20px 10px 25px;
 }
 .task-box.overflow{
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 280px;
 }
 .task-box::-webkit-scrollbar{
   width: 5px;
@@ -115,7 +115,7 @@ body{
 }
 .task-box .task{
   list-style: none;
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 18px;
   padding-bottom: 16px;
   align-items: flex-start;
@@ -131,7 +131,7 @@ body{
   align-items: flex-start;
 }
 .task label input{
-  margin-top: 7px;
+  margin-top: 8px;
   accent-color: #3C87FF;
 }
 .task label p{
@@ -173,7 +173,7 @@ body{
   transform: scale(1);
 }
 .task-menu li{
-  height: 25px;
+  height: 30px;
   font-size: 16px;
   margin-bottom: 2px;
   padding: 17px 15px;
